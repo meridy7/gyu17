@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat",sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: #52503b;
+    padding: 8px 0 17px;
+    position: relative;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav ul{
+    display: flex;
+    column-gap: 12px;
+    color: white;
+}
+.header__nav button{
+    width: 117px;
+    height: 42px;
+    color:  #52503b;
+    background: white;
+    border-radius: 8px;
+    border: none;
+}
+.banner{
+    background: url(image/IMAGE\ \(46\).png)center/cover no-repeat;
+    text-align: center;
+    padding: 177px 0 90px;
+}
+.banner h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 34px 0;
+}
+.banner p{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.14em; 
+    margin-bottom: 50px;
+}
+.text{
+    background: #faf8f0;
+    text-align: center;
+    padding: 100px 0;
+}
+.text__main{
+    display: flex;
+  column-gap: 40px;
+    justify-content: center;
+    text-align: left;
+    margin-top: 32px;
+}
+.text__right{
+    width: 343px;
+}
+.text__left{
+    width: 360px;
+    line-height: 143%;
+}
+.text__right p{
+    line-height: 143%;
+}
+.text__right button{
+    margin-top: 43px;
+    border-radius: 8px;
+    color: white;
+    background: #52503b;
+    width: 107px;
+    height: 42px;
+    border: none;
+}
+
+.escape__text{
+    width: 600px;
+}
+.escape h2{
+    margin: 30px 0 12px;
+}
+.escape{
+    padding: 100px 0;
+}
+.escape__card{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 32px;
+}
+.escape__box{
+    display: flex;
+    justify-content: space-between;
+}
+.guest{
+    padding: 100px 0;
+    background: #faf8f0;
+}
+.guest__top{
+    text-align: center;
+}
+.guest__top h2{
+    margin: 30px 0 12px;
+}
+.guest__card{
+    background: white;
+    width: 584px;
+    padding: 31px;
+}
+.guest__card h4{
+    margin: 10px 0 11px;
+}
+.guest__name{
+    margin-top: 19px;
+    position: relative;
+    left: 10px;
+}
+.guest__name::after{
+    content: '';
+    background: #E08631;
+    width: 2px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+.guest__card p{
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+color: #333;
+}
+.guest__bottom{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-start;
+}
+
+.guest__box1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #52503B;
+}
+.guest__box{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    column-gap: 10px;
+}
